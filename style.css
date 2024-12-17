@@ -1,0 +1,573 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+/* navbar */
+.header {
+  background-image: url("../images/hero-bg.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 95px;
+  gap: 50px;
+}
+.logo > h1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 32px;
+  color: #ffffff;
+}
+.menu_items > a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 20px;
+}
+.menu_items > a:hover {
+  color: orange;
+}
+.menu_icons > a>i {
+  margin-right: 20px;
+  color: #ffffff;
+}
+.menu_icons > button {
+  margin-left: 20px;
+  background-color: orange;
+  border-radius: 50px;
+  width: 150px;
+  height: 35px;
+  border: none;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+/* slideshow */
+.slideshow {
+  padding: 0 95px;
+  padding-top: 50px;
+}
+.slideshow > h1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 60px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.slideshow > p {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  line-height: 25px;
+}
+.slideshow > button {
+  margin-top: 20px;
+  background-color: orange;
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+/* -- main-- */
+.box {
+  margin-top: 70px;
+  display: flex;
+  padding: 0 95px;
+  justify-content: space-between;
+}
+.box1 {
+  width: 550px;
+  height: 200px;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+}
+.box-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid orange;
+  margin: 20px;
+  transition: transform 0.5s ease;
+}
+.box-img img:hover {
+  transform: scale(0.9);
+}
+.text h3 {
+  font-family: "Dancing Script", cursive;
+  color: #ffffff;
+}
+.text h1 {
+  font-family: "Dancing Script", cursive;
+  color: #ffffff;
+}
+.text > button {
+  background-color: orange;
+  border-radius: 50px;
+  width: 150px;
+  height: 35px;
+  border: none;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.box2 {
+  width: 550px;
+  height: 200px;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+}
+/* menu section */
+
+.menu-section {
+  margin-top: 70px;
+}
+.h2-text {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+
+.menu-menu a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  padding: 0 25px;
+}
+.menu-menu {
+  text-align: center;
+}
+/* - our menu boxs- */
+.position {
+  margin-top: 40px;
+  padding: 0 95px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1%;
+  height: 450px;
+}
+.banner1 {
+  width: 350px;
+  height: 220px;
+  background-color: #f1f2f3;
+  border-radius: 15px 15px 0px 30px;
+  position: relative;
+  top: 20px;
+}
+.banner1 img {
+  width: 200px;
+  height: 145px;
+  
+  transition: transform 0.5s ease;
+  
+}
+.banner1 img:hover {
+  transform: scale(0.9);
+}
+
+.banner1 > div {
+  width: 100%;
+  height: 220px;
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+}
+
+.banner2 {
+  width: 350px;
+  height: 230px;
+  background-color: black;
+  color: #ffffff;
+  position: absolute;
+  z-index: -1;
+  border-radius: 0px 0px 15px 15px;
+}
+.banner2 h1 {
+  font-family: "Open Sans", sans-serif;
+  padding: 40px 20px 10px 20px;
+  margin: 5px;
+}
+.banner2 p {
+  font-family: "Open Sans", sans-serif;
+  padding: 0 20px;
+  line-height: 20px;
+  margin: 5px;
+}
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 5px;
+  height: 50px;
+}
+.option h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  
+}
+.option a {
+  color: #ffffff;
+  background-color: orange;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+}
+.option > a > i {
+  margin-left: 11px;
+  margin-top: 11px;
+  
+}
+.option>button{
+  background-color: orange;
+  border-radius: 50px;
+  width: 150px;
+  height: 35px;
+  border: none;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-left: 45%;
+ 
+  
+}
+
+/*view btn  */
+
+.view-more-btn >button{
+  
+  background-color: orange;
+  border-radius: 50px;
+  width: 150px;
+  height: 35px;
+  border: none;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-left: 45%;
+ 
+}
+/* about section */
+.about{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    margin-top: 70px;
+    height:700px;
+    padding: 0 95px;
+}
+.about-img img{
+    padding-top: 50px;
+    height: 600px;
+}
+/* about-txt */
+.about-txt {
+    padding: 0 95px;
+    padding-top: 150px;
+  }
+  .about-txt > h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  .about-txt > p {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+  }
+  .about-txt > button {
+    margin-top: 20px;
+    background-color: orange;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+  }
+  
+/* book table */
+/* book table form */
+.book-table{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   
+    padding: 0 95px;
+    gap: 2%;
+}
+.book-table-form>h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+    color: black;
+    margin-bottom: 5px;
+}
+.book-table-form>form>input{
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 550px;
+    height: 45px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    border: 1px solid gray;
+    
+}
+
+.book-table-form>form>select{
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 555px;
+    height: 50px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+
+.book-table-form>form>button{
+    margin-top: 20px;
+    background-color: orange;
+    border-radius: 50px;
+    width: 180px;
+    height: 45px;
+    border: none;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+.book-table-map{
+    padding-top: 140px;
+   
+}
+.book-table-map>iframe{
+    border-radius: 10px;
+    
+}
+
+/* customer section */
+
+.customer-box {
+    margin-top: 50px;
+    display: flex;
+    padding: 0 95px;
+    /* gap: 3%; */
+    justify-content: space-between;
+    
+   height: 350px;
+  }
+
+  .customer-txt {
+    
+    padding: 0px 20px;
+  }
+  
+.customer-txt>p
+{
+    color: #ffffff;
+    /* font-size: 20px; */
+    font-family: "Open Sans", sans-serif;
+    line-height: 20px;
+    
+}
+.customer-txt>h3
+{
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 10px;
+}
+.client-img>img{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    border: 5px solid orange;
+    margin-top: 20px;
+    
+}
+
+.customer-box1,
+.customer-box2 {
+    width: 550px;
+    height: 180px;
+    background-color: black;
+    border-radius: 5px;
+    
+    
+  }
+
+  .customer-head>h2{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+  }
+
+
+.less-icon{
+    color: #ffffff;
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .less-icon> i {
+    margin-left: 15px;
+    margin-top: 11px;
+  }
+/* icon */
+  .greater-icon{
+    color: #ffffff;
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .greater-icon> i {
+    margin-left: 15px;
+    margin-top: 11px;
+  }
+.arrow{
+    display: flex;
+    justify-content:center;
+    gap:10px;
+
+}
+
+
+
+/* footer section */
+.foot{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 60px
+}
+.foot1{
+    text-align: center;
+}
+.foot1>h2{
+    font-family: "Dancing Script", cursive;
+    color: #ffffff;
+    font-size: 30px;
+}
+.foot1>h4>a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.foot1>h4>a:hover{
+    color: orange;
+}
+.foot1>h4{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+.foot2{
+    text-align: center;
+}
+.foot2>h2{
+    font-family: "Dancing Script", cursive;
+    color: #ffffff;
+    font-size: 30px;
+}
+ .foot2>a>i{
+    background-color: #ffffff;
+    width: 30px;
+    height: 20px;
+    color: black;
+    border-radius: 50%;
+    padding-top: 7px;
+    margin-left:3px;
+    
+}
+.foot2>a>i:hover{
+    color: orange;
+}
+.foot2>h2>a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.foot2>p{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 25px;
+}
+.foot2>a{
+    color:#ffffff;
+}
+.foot2{
+    text-align: center;
+}
+.foot3>h2{
+    font-family: "Dancing Script", cursive;
+    color: #ffffff;
+    font-size: 30px;
+}
+.foot3>p{
+    color:#ffffff;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+.foot3{
+    text-align: center;
+}
+.foot4{
+    margin-top: 100px;
+    
+}
+.foot4>h4>a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.foot4>h4>a:hover{
+    color: orange;
+}
+.foot4>h4{
+    color:#ffffff;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 50px;
+}
+footer
+{
+    text-align: center;
+    background-color: black; 
+    height: 450px;
+    margin-top: 70px;
+}
+
+
+
